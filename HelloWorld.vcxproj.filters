@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\mapping">
+      <UniqueIdentifier>{53cffb4b-cf32-48a8-96e8-c7973e925300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\mapping\impl">
+      <UniqueIdentifier>{e741d2a8-6dff-49ba-928c-3db194a19dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\util">
+      <UniqueIdentifier>{8c38f71c-de2c-499b-bfd3-c678f757c38c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\AbstractClass.h">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\CM.h">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\Mapping.h">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\Mem.h">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\impl\Entity.h">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\impl\EntityPlayerSP.h">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\impl\JavaList.h">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\impl\JavaSet.h">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\impl\Minecraft.h">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="mapping\impl\WorldClient.h">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="util\MathHelper.h">
+      <Filter>Исходные файлы\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="dll.h">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintStream.h">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="mapping\AbstractClass.cpp">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="mapping\Mapping.cpp">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="mapping\impl\Entity.cpp">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="mapping\impl\EntityPlayerSP.cpp">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="mapping\impl\JavaList.cpp">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="mapping\impl\JavaSet.cpp">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="mapping\impl\Minecraft.cpp">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="mapping\impl\WorldClient.cpp">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Исходные файлы\mapping\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="dll.cpp">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintStream.cpp">
+      <Filter>Исходные файлы\mapping</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
